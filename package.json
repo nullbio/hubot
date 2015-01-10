@@ -1,6 +1,6 @@
 {
   "name": "hubot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "author": "Thomas McNiven <hello@vevix.net>",
   "description": "our robotic helper!",
