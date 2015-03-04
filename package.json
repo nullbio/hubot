@@ -2,7 +2,7 @@
   "name": "hubot",
   "version": "0.0.3",
   "private": true,
-  "author": "Thomas McNiven <hello@vevix.net>",
+  "author": "Disvelop <info@disvelop.net>",
   "description": "our robotic helper!",
   "dependencies": {
     "hubot": "^2.11.0",
