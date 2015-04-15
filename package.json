@@ -1,13 +1,13 @@
 {
-  "name": "hubot",
+  "name": "hu-boterson",
   "version": "0.0.3",
   "private": true,
   "author": "Disvelop <info@disvelop.net>",
   "description": "our robotic helper!",
   "dependencies": {
-    "hubot": "^2.11.0",
+    "hubot": "^2.12.0",
     "hubot-diagnostics": "0.0.1",
-    "hubot-google-images": "0.1.2",
+    "hubot-google-images": "^0.1.4",
     "hubot-google-translate": "^0.1.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
@@ -16,10 +16,10 @@
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
     "hubot-shipit": "^0.1.1",
+    "hubot-slack": "^3.3.0",
     "hubot-uptimerobot": "0.0.3",
     "hubot-victory": "^1.2.0",
-    "hubot-youtube": "^0.1.2",
-    "hubot-slack": "3.2.1"
+    "hubot-youtube": "^0.1.2"
   },
   "engines": {
     "node": "0.10.x"
