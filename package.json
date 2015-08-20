@@ -1,6 +1,5 @@
 {
   "name": "hubot",
-  "version": "1.0.0",
   "private": true,
   "author": "Disvelop <info@disvelop.net>",
   "description": "our robotic helper!",
@@ -8,7 +7,6 @@
     "hubot": "2.13.2",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "0.1.5",
-    "hubot-google-translate": "0.2.0",
     "hubot-help": "0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-redis-brain": "0.0.3",
@@ -20,6 +18,7 @@
     "hubot-slack": "3.3.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.12.x",
+    "iojs": "3.1.x"
   }
 }
