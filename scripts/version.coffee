@@ -3,10 +3,10 @@
 #
 # Commands:
 #   hubot version - Displays the version hubot is running.
-childProcess = require('child_process')
+fs = require('fs')
 link = 'https://github.com/disvelop/hubot/commit/'
 
 module.exports = (robot) ->
   robot.respond /version/i, (msg) ->
-    version = childProcess.execSync("git log --pretty=format:'%h' -n 1")
-    msg.send "My latest build was #{version} -- #{link}#{version}"
+    version = fs.readFileSync('.source_version', 'utf8')
+    msg.send "My latest build was #{version.substr(0, 7)} – #{link}#{version}"
