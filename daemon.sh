@@ -3,6 +3,7 @@
 USER_HOME="/home/$USER"
 HUBOT_ROOT="$USER_HOME/hubot"
 HUBOT_HOME="$HUBOT_ROOT/node_modules/hubot"
+HUBOT_ADAPTER="slack"
 DAEMON="$HUBOT_HOME/bin/hubot"
 PIDFILE=$HUBOT_ROOT/hubot.pid
 
