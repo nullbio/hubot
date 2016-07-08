@@ -8,6 +8,39 @@ This README is intended to help get you started. Definitely update and improve t
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
+### Simple Instructions
+* (Optional) Fork repository
+* Install git
+```
+sudo apt-get install git
+```
+* Install node
+```
+Instructions here: https://github.com/nodesource/distributions#debinstall
+```
+* Clone repo to server
+```
+git clone git@github.com:GITHUBUSERNAME/hubot.git && cd hubot
+```
+* Install dependencies
+```
+npm install
+```
+* Configure environment variables:
+```
+HUBOT_SLACK_TOKEN=XXX
+HUBOT_YOUTUBE_API_KEY=XXX
+HUBOT_ADAPTER=slack
+HUBOT_GOOGLE_CSE_ID=XXX
+HUBOT_GOOGLE_CSE_KEY=XXX
+```
+* Run Bot
+```
+./daemon.sh start
+```
+
+That's it! The bot should be running and connected to Slack.
+
 ### Running hubot Locally
 
 You can test your hubot by running the following.
