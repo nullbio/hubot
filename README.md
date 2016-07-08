@@ -28,11 +28,13 @@ npm install
 ```
 * Configure environment variables:
 ```
-HUBOT_SLACK_TOKEN=XXX
-HUBOT_YOUTUBE_API_KEY=XXX
-HUBOT_ADAPTER=slack
-HUBOT_GOOGLE_CSE_ID=XXX
-HUBOT_GOOGLE_CSE_KEY=XXX
+Add these to the bottom of your ~/.profile
+
+export HUBOT_SLACK_TOKEN=XXX
+export HUBOT_YOUTUBE_API_KEY=XXX
+export HUBOT_ADAPTER=slack
+export HUBOT_GOOGLE_CSE_ID=XXX
+export HUBOT_GOOGLE_CSE_KEY=XXX
 ```
 * Run Bot
 ```
